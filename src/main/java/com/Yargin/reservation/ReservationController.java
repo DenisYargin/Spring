@@ -18,6 +18,7 @@ public class ReservationController {
     public Reservation getReservationById(@PathVariable Long id) {
         System.out.println("Контроллер вызван!");
         return reservationService.getReservationById(id);
+
     }
 
     @GetMapping()
